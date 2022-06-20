@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Merger Wars Stats</title>
+</head>
+<body>
+<h1>Summary</h1>
+<p>Over 6000 citizen scientist volunteers contributed a total of more than 1 million Merger Wars comparisons to help sort the top simulations.
+The volunteers clicked the left image about 25.06% of the time and the right image about 24.01% of the time.  The neither button was clicked 50.93% of the time.
+The left button click matched the consensus in 74.53% of competitions.  The right button click matched consensus 75.03% of competitions.
+The neither button click matched consensus 93.7% of the time.
+</p>
+<p>Consensus for left and right clicks is defined by the volunteers selection matching the final Merger Wars fitness score.  The fitness score is the ratio of the number of wins to the number of competitions.  A "consensus" match occurs when the left image was clicked and the final fitness score for the left image is greater than the score for the right image.</p>
+<p>Consensus for the neither button is defined by both images having a low fitness less than 0.5.  If both images have low fitness then the neither button matches the consensus.  If either or both image have a fitness greater than or above 0.5, the volunteer's selection of neither would not match consensus.
+</p>
+<p>Below is a histogram showing the number of comparisons for each system.</p>
+<img border="0" width="500" src="sys_count.png" />
+<p>Below is a histogram showing the number of comparisons for each volunteer.</p>
+<img border="0" width="500" src="user_count.png" />
+<p>There are a number of users who performed more than 1000 clicks.  One user exceeded 9000 clicks. The same plot for log10 number of clicks. </p>
+<img border="0" width="500" src="user_log_count.png" />
+<hr />
+<h1>By System</h1>
+<p>We present a set of histograms showing the distribution of percent left, right, neither clicks, and the distribution of percent consensus for left, right, neither for each system.</p>
+<h2>Percent Click</h2>
+<table border="0">
+<tr>
+<td><img width="400" border="0" src="sys_left.png" /></td>
+<td><img width="400" border="0" src="sys_right.png" /></td>
+<td><img width="400" border="0" src="sys_neither.png" /></td>
+</tr>
+</table>
+<h2>Percent Consensus Click</h2>
+<table border="0">
+<tr>
+<td><img width="400" border="0" src="sys_left_consensus.png" /></td>
+<td><img width="400" border="0" src="sys_right_consensus.png" /></td>
+<td><img width="400" border="0" src="sys_neither_consensus.png" /></td>
+</tr>
+</table>
+<hr />
+<h1>By Volunteer</h1>
+<p>We present a set of histograms showing the distribution of percent left, right, neither clicks, and the distribution of percent consensus for left, right, neither for each volunteer.</p>
+<h2>Percent Click</h2>
+<table border="0">
+<tr>
+<td><img width="400" border="0" src="user_left.png" /></td>
+<td><img width="400" border="0" src="user_right.png" /></td>
+<td><img width="400" border="0" src="user_neither.png" /></td>
+</tr>
+</table>
+<h2>Percent Consensus Click</h2>
+<table border="0">
+<tr>
+<td><img width="400" border="0" src="user_left_consensus.png" /></td>
+<td><img width="400" border="0" src="user_right_consensus.png" /></td>
+<td><img width="400" border="0" src="user_neither_consensus.png" /></td>
+</tr>
+</table>
+<hr />
+<h1>By System</h1>
+<p>Percent left clicks vs. percent right clicks by system.</p>
+<img border="0" width="600" src="sys_leftright.png" />
+<p>Percent left clicks vs. percent right clicks by volunteer.</p>
+<img border="0" width="600" src="user_leftright.png" />
+</body>
+</html>
